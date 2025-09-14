@@ -1,0 +1,110 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+  background-color: #011f5b; /* Penn Blue */
+  color: white;
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo img {
+  height: 30px;
+}
+
+header .welcome {
+  font-size: 0.9rem;
+}
+
+/* Title Bar */
+.title-bar {
+  background-color: #990000; /* Penn Red */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1rem;
+}
+
+.title-bar h1 {
+  font-size: 1.2rem;
+}
+
+.calendar-icon {
+  font-size: 1.5rem;
+}
+
+/* Cart Cards */
+main {
+  padding: 1rem;
+}
+
+.cart-card {
+  background: #f1f1f1;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.cart-card p {
+  margin-bottom: 0.75rem;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.tag.blue {
+  background-color: #011f5b;
+  color: white;
+}
+
+.tag.red {
+  background-color: #990000;
+  color: white;
+}
+
+/* Buttons */
+button.small {
+  padding: 0.3rem 0.8rem;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+button.small.blue {
+  background-color: #011f5b;
+  color: white;
+}
+
+button.submit {
+  width: 100%;
+  background-color: #990000;
+  color: white;
+  padding: 1rem;
+  border: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+button.submit:hover {
+  background-color: #b30000;
+}
